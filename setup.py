@@ -18,7 +18,7 @@ setup(
     install_requires=['requests', 'argparse'],
     entry_points={
         'console_scripts': [
-            'gist = commands:main',
+            'gist = gist.commands:main',
             ]
     },
     classifiers=[

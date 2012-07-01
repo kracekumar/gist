@@ -16,13 +16,13 @@ setup(
     long_description=readme,
     packages=find_packages(),
     install_requires=['requests', 'argparse'],
-    entry_point={
+    entry_points={
         'console_scripts': [
             'gist = commands:main',
             ]
     },
     classifiers=[
-          'Development Status :: 2 - Pre-Alpha'
+          'Development Status :: 2 - Pre-Alpha',
           'Environment :: Console',
           'Intended Audience :: Developers',
           'Intended Audience :: System Administrators',

@@ -4,7 +4,7 @@
 import sys
 from setuptools import Command, setup, find_packages
 
-readme = open('README.rst', 'a').read()
+readme = open('README.rst', 'r').read()
 setup(
     name='gist',
     version='0.0.1',

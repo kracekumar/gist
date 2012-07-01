@@ -4,7 +4,7 @@ import requests
 from gist.endpoints import endpoints
 import sys
 
-if __name__ == '__main__':
+def main():
     try:
         if not sys.stdin.isatty():
             content = []

@@ -7,7 +7,7 @@ from setuptools import Command, setup, find_packages
 readme = open('README.rst', 'r').read()
 setup(
     name='gist',
-    version='0.0.2',
+    version='0.0.3',
     url='https://github.com/kracekumar/gist',
     license='BSD',
     author='kracekumar',

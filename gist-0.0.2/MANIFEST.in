@@ -1,1 +1,4 @@
 include README.rst
+include setup.py
+include setup.cfg
+recursive-include gist *.py *.rst

@@ -1,17 +1,16 @@
 #! /usr/bin/env python
 #! -*- coding: utf-8 *-*-
 
-import sys
-from setuptools import Command, setup, find_packages
+from setuptools import setup, find_packages
 
 readme = open('README.rst', 'r').read()
 setup(
     name='gist',
-    version='0.0.3',
+    version='0.0.7',
     url='https://github.com/kracekumar/gist',
     license='BSD',
     author='kracekumar',
-    author_email='me@kracekumar',
+    author_email='me@kracekumar.com',
     description='Command Line Interface for pasting to gist.github.com',
     long_description=readme,
     packages=find_packages(),

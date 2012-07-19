@@ -3,7 +3,7 @@
 GIST_BASE_URL = "https://api.github.com"
 
 endpoints = {
-    'post_gist':
+    'gist_post':
         {
             'url': '/'.join([GIST_BASE_URL, 'gists']),
             'method': 'POST',

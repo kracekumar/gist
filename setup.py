@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 readme = open('README.rst', 'r').read()
 setup(
     name='gist',
-    version='0.0.8b',
+    version='0.0.9b',
     url='https://github.com/kracekumar/gist',
     license='BSD',
     author='kracekumar',
@@ -39,4 +39,4 @@ setup(
           'Topic :: Software Development :: Libraries :: Python Modules',
 
     ],
-    )
+)

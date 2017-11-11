@@ -1,3 +1,6 @@
+The package is no more developed
+----
+
 Gist
 ----
     - CLI for gist.github.com
